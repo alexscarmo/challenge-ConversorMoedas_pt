@@ -21,5 +21,6 @@ Para que o projeto funcione corretamente após clonar o repositório:
 1. Na **raiz do seu projeto** (um nível acima da pasta `src`), crie um arquivo chamado: config.properties
 2. Dentro desse arquivo adicione a seguinte linha: API_KEY="seu_token_vindo_da_api" (sem aspas)
 3. Estou utilizando a API [ExchangeRate-API](https://www.exchangerate-api.com).  
-- Faça seu cadastro, gere seu token e insira no `config.properties`.
-4. Caso queira utilizar uma outra API para conversão de moedas, fique a vontade! O projeto foi construído utilizando os princípios SOLID, então não se tem acoplamento entre as classes. Crie a classe para sua API em específico ou então edite a classe do [ExchangeRate-API].
+4. Faça seu cadastro, gere seu token e insira no `config.properties`.
+5. Caso queira utilizar uma outra API para conversão de moedas, fique a vontade! O projeto foi construído utilizando os princípios SOLID, então não se tem acoplamento entre as classes. Crie a classe para sua API em específico ou então edite a classe do [ExchangeRate-API].
+6. Visite a pasta do projeto para clonar e testar (https://github.com/alexscarmo/challenge-ConversorMoedas_pt/)
